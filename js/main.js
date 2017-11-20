@@ -1,6 +1,10 @@
 $(document).ready(function () {
 
-    var headings = $('h2');
+    var paragraphs = $('p');
 
-    headings.last().text('I\'m Shannon Adams, and I\'m learning jQuery!');
+    paragraphs.css({
+        'color': '#9dc8b9',
+        'font-weight': 'bold',
+        'background-color': '#528d9e'
+    });
 });
